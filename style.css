@@ -134,6 +134,18 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.score:hover {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.score:active {
+  background-color: var(--color-midium-grey);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 .rating-state-component button {
   border: none;
   width: 250px;
@@ -142,6 +154,12 @@ body {
   background-color: var(--color-orange);
   color: var(--color-white);
   margin-left: 15px;
+}
+
+.rating-state-component button:hover {
+  background-color: var(--color-white);
+  color: var(--color-orange);
+  cursor: pointer;
 }
 
 /* Thankyou State Component */
