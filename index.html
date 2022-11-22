@@ -25,9 +25,10 @@
         font-size: 11px;
         text-align: center;
         color: white;
+        margin-bottom: 50px;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(216, 12%, 54%);
       }
     </style>
   </head>
@@ -43,24 +44,32 @@
         appreciated to help us improve our offering!
       </p>
       <div class="score-components">
-        <span class="score">1</span>
-        <span class="score">2</span>
-        <span class="score">3</span>
-        <span class="score">4</span>
-        <span class="score">5</span>
+        <span class="score" id="score1">1</span>
+        <span class="score" id="score2">2</span>
+        <span class="score" id="score3">3</span>
+        <span class="score" id="score4">4</span>
+        <span class="score" id="score5">5</span>
       </div>
-      <button type="submit">SUBMIT</button>
+      <button class="submit-btn" type="submit">SUBMIT</button>
     </div>
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="thankyou-state-component">
+    <div class="thankyou-state-component hidden">
+      <button class="reset-btn" type="reset">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M125.7 160H176c17.7 0 32 14.3 32 32s-14.3 32-32 32H48c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32s32 14.3 32 32v51.2L97.6 97.6c87.5-87.5 229.3-87.5 316.8 0s87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3s-163.8-62.5-226.3 0L125.7 160z"
+          />
+        </svg>
+      </button>
       <img
         class="thankyou-image"
         src="./images/illustration-thank-you.svg"
         alt="thankyou-image"
       />
-      <h2>You selected 4 out of 5</h2>
+      <h2>You selected <span class="choosed-score"></span> out of 5</h2>
       <!-- Add rating here -->
       <h1 class="thankyou-title">Thank you!</h1>
       <p>
@@ -79,4 +88,5 @@
       >. Coded by <a href="#">Hyeyoung Lee</a>.
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>

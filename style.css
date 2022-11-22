@@ -146,7 +146,7 @@ body {
   cursor: pointer;
 }
 
-.rating-state-component button {
+.submit-btn {
   border: none;
   width: 250px;
   height: 40px;
@@ -156,7 +156,7 @@ body {
   margin-left: 15px;
 }
 
-.rating-state-component button:hover {
+.submit-btn:hover {
   background-color: var(--color-white);
   color: var(--color-orange);
   cursor: pointer;
@@ -207,6 +207,29 @@ h2 {
   margin-bottom: 50px;
 }
 
+.reset-btn {
+  position: relative;
+  top: 65px;
+  left: 240px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  background-color: var(--color-light-grey);
+  color: var(--color-white);
+  margin-left: 15px;
+  opacity: 0.35;
+}
+
+.reset-btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
 
 /* >=1440 (Desktop) */
 @media screen and (min-width:1440px) {}
