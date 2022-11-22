@@ -62,11 +62,88 @@ body {
 }
 
 /* Typography */
+h1 {
+  color: var(--color-white);
+}
+
 p {
+  color: var(--color-light-grey);
   font-size: var(--font-medium);
 }
 
-/* Component */
+/* Rating State Component */
+body {
+  background-color: var(--color-very-dark-blue);
+}
+
+.rating-state-component {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-dark-blue);
+  max-width: 345px;
+  height: 350px;
+  margin: 50% auto;
+  padding: 0 25px;
+  border-radius: 20px;
+}
+
+.star {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  background-color: var(--color-dark-blue);
+  color: var(--color-light-grey);
+  width: 45px;
+  height: 45px;
+  padding: 15px 15px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  border-radius: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rating-title {
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.score-components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  background-color: var(--color-dark-blue);
+  color: var(--color-light-grey);
+  width: 45px;
+  height: 45px;
+  padding: 15px 18px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button {
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  margin-left: 15px;
+}
+
+/* Thankyou State Component */
 
 
 /* >=1440 (Desktop) */
