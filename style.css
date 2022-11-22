@@ -108,9 +108,10 @@ body {
 .rating-title {
   margin-top: 55px;
   margin-bottom: 15px;
+  font-size: 2rem;
 }
 
-p {
+.rating-state-component p {
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -133,7 +134,7 @@ p {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-button {
+.rating-state-component button {
   border: none;
   width: 250px;
   height: 40px;
@@ -144,6 +145,49 @@ button {
 }
 
 /* Thankyou State Component */
+.thankyou-state-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--color-dark-blue);
+  max-width: 345px;
+  height: 350px;
+  margin: 50% auto;
+  padding: 0 25px;
+  border-radius: 20px;
+}
+
+.thankyou-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h2 {
+  width: 210px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: var(--color-dark-blue);
+  color: var(--color-orange);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-medium);
+  padding: 10px 10px;
+  margin-left: 45px;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.thankyou-title {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.thankyou-state-component p {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 
 /* >=1440 (Desktop) */
