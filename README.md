@@ -114,13 +114,13 @@ Users should be able to:
 }
 ```
 
+- See the "Thank you" card state after submitting a rating and see the "Rating page" again after click a reset button.
+
 ```css
 .hidden {
   display: none;
 }
 ```
-
-- See the "Thank you" card state after submitting a rating and see the "Rating page" again after click a reset button.
 
 ```js
 function handleSubmit() {
