@@ -19,10 +19,13 @@
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+✅ View the optimal layout for the app depending on their device's screen size
+
+✅ See hover states for all interactive elements on the page
+
+✅ Select and submit a number rating
+
+✅ See the "Thank you" card state after submitting a rating
 
 ### Screenshot
 
@@ -32,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-FnHZsVvI9q)
+- Live Site URL: [live site URL here](https://hyeyoung-lucia.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -134,5 +137,5 @@ resetBtn.addEventListener("click", handleSubmit);
 ```
 
 ## Author
-
+Hyeyoung Lee
 - Frontend Mentor - [@Hyeyoung-Lucia](https://www.frontendmentor.io/profile/Hyeyoung-Lucia)
